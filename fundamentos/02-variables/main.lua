@@ -36,3 +36,35 @@ print(
 	"Estoy imprimiendo apellido, la cual solo existe en el contexto del archivo o bloque de código, esta no puede usarse en funciones por ejemplo si no se declara dentro de la misma por ejemplo.... ",
 	apellido
 )
+
+-- Tipos de variables soportado en LUA
+-- CADENA DE TEXTO
+
+local someTextVariable = "Soy un texto"
+local someMultipleTextVariable = [[
+  soy un texto
+  dividio en varias
+  partes
+]]
+
+local someNumberVariable = 4
+
+local someDecimalVariable = 3.50
+
+local nilVariable = nil
+
+local someBooleanVariable = false
+local someBooleanVariableTrueCase = true
+
+local someTableVariable = {
+	atributeOne = "some value in text",
+	atributeTwo = 28,
+	[1] = "some element like a index, i work like a dicctionary, array",
+}
+
+local function someFunctionVariable()
+	print("Hello from variable with funcion")
+end
+
+-- PENDIENTE DE MOSTRAR EJEMPLO DE HILO Y USERDATA
+--
